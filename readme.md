@@ -106,3 +106,4 @@ So operations can be resolved while the files are still uploading, the fields ar
 - [apollo-upload-server](https://npm.im/apollo-upload-server)
 - [apollo-upload-client](https://npm.im/apollo-upload-client)
 - [apollo-fetch-upload](https://npm.im/apollo-fetch-upload)
+- [extract-files](https://npm.im/extract-files)
