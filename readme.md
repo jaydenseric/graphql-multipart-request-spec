@@ -103,3 +103,4 @@ Each file extracted from the operations object with the operations path as the f
 - [apollo-upload-server](https://npm.im/apollo-upload-server)
 - [apollo-upload-client](https://npm.im/apollo-upload-client)
 - [apollo-fetch-upload](https://npm.im/apollo-fetch-upload)
+- [extract-files](https://npm.im/extract-files)
