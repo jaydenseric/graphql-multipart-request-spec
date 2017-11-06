@@ -11,7 +11,7 @@ It’s possible to implement:
 
 ## Multipart form field structure
 
-An “operations object” is an [Apollo GraphQL POST request](http://dev.apollodata.com/tools/graphql-server/requests.html#postRequests) (or array of requests if batching). An “operations path” is an [`object-path`](https://npm.im/object-path) string to locate a file within an operations object.
+An “operations object” is an [Apollo GraphQL POST request](https://www.apollographql.com/docs/apollo-server/requests.html#postRequests) (or array of requests if batching). An “operations path” is an [`object-path`](https://npm.im/object-path) string to locate a file within an operations object.
 
 ### 1. `operations` field
 
