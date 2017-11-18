@@ -6,11 +6,11 @@ An interoperable [multipart form](https://tools.ietf.org/html/rfc7578) field str
 
 It’s possible to implement:
 
-- Files nested anywhere within operations (typically in `variables`).
-- Batched operations.
-- File deduplication.
-- File upload streams in resolvers.
-- Aborting file uploads in resolvers.
+* Files nested anywhere within operations (typically in `variables`).
+* Batched operations.
+* File deduplication.
+* File upload streams in resolvers.
+* Aborting file uploads in resolvers.
 
 ## Multipart form field structure
 
@@ -103,7 +103,7 @@ So operations can be resolved while the files are still uploading, the fields ar
 
 ## Relevant projects
 
-- [apollo-upload-server](https://npm.im/apollo-upload-server)
-- [apollo-upload-client](https://npm.im/apollo-upload-client)
-- [apollo-fetch-upload](https://npm.im/apollo-fetch-upload)
-- [extract-files](https://npm.im/extract-files)
+* [apollo-upload-server](https://npm.im/apollo-upload-server)
+* [apollo-upload-client](https://npm.im/apollo-upload-client)
+* [apollo-fetch-upload](https://npm.im/apollo-fetch-upload)
+* [extract-files](https://npm.im/extract-files)
