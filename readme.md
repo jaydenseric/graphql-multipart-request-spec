@@ -18,7 +18,7 @@ An “operations object” is an [Apollo GraphQL POST request](https://www.apoll
 
 So operations can be resolved while the files are still uploading, the fields are ordered:
 
-1. `files`: A JSON encoded map of where files occured in the operations. For each file, the key is the file multipart form field name and the value is an array of operations paths.
+1. `files`: A JSON encoded map of where files occurred in the operations. For each file, the key is the file multipart form field name and the value is an array of operations paths.
 2. `operations`: A JSON encoded operations object with files replaced with `null`.
 3. File fields: Each file extracted from the operations object with a unique, arbitrary field name.
 
