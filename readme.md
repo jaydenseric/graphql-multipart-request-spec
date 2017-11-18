@@ -1,6 +1,6 @@
 # GraphQL multipart request specification
 
-[![GitHub release](https://img.shields.io/github/release/qubyte/graphql-multipart-request-spec.svg)](https://github.com/jaydenseric/graphql-multipart-request-spec/releases)
+[![GitHub release](https://img.shields.io/github/release/jaydenseric/graphql-multipart-request-spec/all.svg)](https://github.com/jaydenseric/graphql-multipart-request-spec/releases)
 
 An interoperable [multipart form](https://tools.ietf.org/html/rfc7578) field structure for GraphQL requests, used by various file upload client/server implementations.
 
