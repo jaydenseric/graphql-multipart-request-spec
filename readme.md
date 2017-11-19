@@ -18,8 +18,8 @@ An “operations object” is an [Apollo GraphQL POST request](https://www.apoll
 
 So operations can be resolved while the files are still uploading, the fields are ordered:
 
-1. `files`: A JSON encoded map of where files occurred in the operations. For each file, the key is the file multipart form field name and the value is an array of operations paths.
-2. `operations`: A JSON encoded operations object with files replaced with `null`.
+1. `operations`: A JSON encoded operations object with files replaced with `null`.
+2. `files`: A JSON encoded map of where files occurred in the operations. For each file, the key is the file multipart form field name and the value is an array of operations paths.
 3. File fields: Each file extracted from the operations object with a unique, arbitrary field name.
 
 ## Examples
@@ -41,8 +41,8 @@ So operations can be resolved while the files are still uploading, the fields ar
 
 #### Multipart form fields
 
-1. `files`: `{"1": ["variables.image"]}`
-2. `operations`: `{"query": "…", "operationName": "updateAvatar", "variables": {"userId": "…", image: null}}`
+1. `operations`: `{"query": "…", "operationName": "updateAvatar", "variables": {"userId": "…", image: null}}`
+2. `files`: `{"1": ["variables.image"]}`
 3. `1`: File
 
 ### Gallery mutation
@@ -95,8 +95,8 @@ So operations can be resolved while the files are still uploading, the fields ar
 
 #### Multipart form fields
 
-1. `files`: `{"1": ["0.variables.image", "variables.images.0"], "2": ["variables.images.1"], "3": ["variables.images.2"]}`
-2. `operations`: `[{"query": "…", "operationName": "updateAvatar", "variables": {"userId": "…", image: null}}, {"query": "…", "operationName": "addToGallery", "variables": {"galleryId": "…", images: [null, null, null]}}]`
+1. `operations`: `[{"query": "…", "operationName": "updateAvatar", "variables": {"userId": "…", image: null}}, {"query": "…", "operationName": "addToGallery", "variables": {"galleryId": "…", images: [null, null, null]}}]`
+2. `files`: `{"1": ["0.variables.image", "variables.images.0"], "2": ["variables.images.1"], "3": ["variables.images.2"]}`
 3. `1`: File
 4. `2`: File
 5. `3`: File
