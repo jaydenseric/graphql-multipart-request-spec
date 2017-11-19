@@ -62,8 +62,8 @@ So operations can be resolved while the files are still uploading, the fields ar
 
 #### Multipart form fields
 
-1. `map`: `{"1": ["variables.images.0"], "2": ["variables.images.1"], "3": ["variables.images.2"]}`
-2. `operations`: `{"query": "…", "operationName": "addToGallery", "variables": {"galleryId": "…", images: [null, null, null]}}`
+1. `operations`: `{"query": "…", "operationName": "addToGallery", "variables": {"galleryId": "…", images: [null, null, null]}}`
+2. `map`: `{"1": ["variables.images.0"], "2": ["variables.images.1"], "3": ["variables.images.2"]}`
 3. `1`: File
 4. `2`: File
 5. `3`: File
