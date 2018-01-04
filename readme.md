@@ -12,6 +12,8 @@ It’s possible to implement:
 * File upload streams in resolvers.
 * Aborting file uploads in resolvers.
 
+![Sync vs async GraphQL multipart request middleware](sync-vs-async-graphql-multipart-request-middleware.svg)
+
 ## Multipart form field structure
 
 An “operations object” is an [Apollo GraphQL POST request](https://www.apollographql.com/docs/apollo-server/requests.html#postRequests) (or array of requests if batching). An “operations path” is an [`object-path`](https://npm.im/object-path) string to locate a file within an operations object.
