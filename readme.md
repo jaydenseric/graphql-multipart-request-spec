@@ -109,3 +109,7 @@ So operations can be resolved while the files are still uploading, the fields ar
 * [apollo-upload-client](https://npm.im/apollo-upload-client)
 * [apollo-fetch-upload](https://npm.im/apollo-fetch-upload)
 * [extract-files](https://npm.im/extract-files)
+
+### Third party implementations
+
+* [Server support for graphql-php](https://github.com/Ecodev/graphql-upload)
