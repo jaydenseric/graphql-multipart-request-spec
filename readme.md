@@ -103,13 +103,16 @@ So operations can be resolved while the files are still uploading, the fields ar
 4. `2`: File
 5. `3`: File
 
-## Relevant projects
+## Implementations
 
-* [apollo-upload-server](https://npm.im/apollo-upload-server)
-* [apollo-upload-client](https://npm.im/apollo-upload-client)
-* [apollo-fetch-upload](https://npm.im/apollo-fetch-upload)
-* [extract-files](https://npm.im/extract-files)
+### Client
 
-### Third party implementations
+* [apollo-upload-client](https://github.com/jaydenseric/apollo-upload-client) (JS: [npm](https://npm.im/apollo-upload-client))
+* [apollo-fetch-upload](https://github.com/apollographql/apollo-fetch/tree/master/packages/apollo-fetch-upload) (JS: [npm](https://npm.im/apollo-fetch-upload))
+* [extract-files](https://github.com/jaydenseric/extract-files) (JS: [npm](https://npm.im/extract-files))
 
-* [Server support for graphql-php](https://github.com/Ecodev/graphql-upload)
+### Server
+
+* [apollo-upload-server](https://npm.im/apollo-upload-server) (JS: [npm](https://npm.im/apollo-upload-server))
+* [apollo_upload_server](https://github.com/jetruby/apollo_upload_server-ruby) (Ruby: [Gem](https://rubygems.org/gems/apollo_upload_server))
+* [ecodev/graphql-upload](https://github.com/Ecodev/graphql-upload) (PHP: [Composer](https://packagist.org/packages/ecodev/graphql-upload))
