@@ -113,6 +113,6 @@ So operations can be resolved while the files are still uploading, the fields ar
 
 ### Server
 
-* [apollo-upload-server](https://npm.im/apollo-upload-server) (JS: [npm](https://npm.im/apollo-upload-server))
+* [apollo-upload-server](https://github.com/jaydenseric/apollo-upload-server) (JS: [npm](https://npm.im/apollo-upload-server))
 * [apollo_upload_server](https://github.com/jetruby/apollo_upload_server-ruby) (Ruby: [Gem](https://rubygems.org/gems/apollo_upload_server))
 * [ecodev/graphql-upload](https://github.com/Ecodev/graphql-upload) (PHP: [Composer](https://packagist.org/packages/ecodev/graphql-upload))
