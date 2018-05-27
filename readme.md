@@ -218,7 +218,7 @@ Charlie file content.
 * [jaydenseric/graphql-react](https://github.com/jaydenseric/graphql-react) (JS: [npm](https://npm.im/graphql-react))
 * [jaydenseric/apollo-upload-client](https://github.com/jaydenseric/apollo-upload-client) (JS: [npm](https://npm.im/apollo-upload-client))
 * [jaydenseric/extract-files](https://github.com/jaydenseric/extract-files) (JS: [npm](https://npm.im/extract-files))
-* [apollo-fetch-upload](https://github.com/apollographql/apollo-fetch/tree/master/packages/apollo-fetch-upload) (JS: [npm](https://npm.im/apollo-fetch-upload))
+* [~~apollo-fetch-upload~~](https://github.com/apollographql/apollo-fetch/tree/master/packages/apollo-fetch-upload) (JS: [npm](https://npm.im/apollo-fetch-upload))
 
 ### Server
 
