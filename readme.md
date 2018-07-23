@@ -213,6 +213,8 @@ Charlie file content.
 
 ## Implementations
 
+Pull requests adding either experimental or mature implementations to these lists are welcome!
+
 ### Client
 
 - [jaydenseric/graphql-react](https://github.com/jaydenseric/graphql-react) (JS: [npm](https://npm.im/graphql-react))
