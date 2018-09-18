@@ -226,8 +226,8 @@ Pull requests adding either experimental or mature implementations to these list
 
 - [jaydenseric/graphql-upload](https://github.com/jaydenseric/graphql-upload) (JS: [npm](https://npm.im/graphql-upload))
 - [apollographql/apollo-server](https://github.com/apollographql/apollo-server) (JS: [npm](https://npm.im/apollo-server))
+- [~~jaydenseric/apollo-upload-server~~](https://github.com/jaydenseric/apollo-upload-server) (JS: [npm](https://npm.im/apollo-upload-server))
 - [jetruby/apollo_upload_server-ruby](https://github.com/jetruby/apollo_upload_server-ruby) (Ruby: [Gem](https://rubygems.org/gems/apollo_upload_server))
 - [Ecodev/graphql-upload](https://github.com/Ecodev/graphql-upload) (PHP: [Composer](https://packagist.org/packages/ecodev/graphql-upload))
 - [rebing/graphql-laravel](https://github.com/rebing/graphql-laravel) (PHP: [Composer](https://packagist.org/packages/rebing/graphql-laravel))
 - [lmcgartland/graphene-file-upload](https://github.com/lmcgartland/graphene-file-upload) (Python: [PyPi](https://pypi.org/project/graphene-file-upload))
-- [~~jaydenseric/apollo-upload-server~~](https://github.com/jaydenseric/apollo-upload-server) (JS: [npm](https://npm.im/apollo-upload-server))
