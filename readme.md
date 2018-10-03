@@ -50,8 +50,8 @@ So operations can be resolved while the files are still uploading, the fields ar
 ```shell
 curl localhost:3001/graphql \
   -F operations='{ "query": "mutation ($file: Upload!) { singleUpload(file: $file) { id } }", "variables": { "file": null } }' \
-  -F map='{ "0": ["variables.file"] }' \
-  -F 0=@a.txt
+  -F map='{ "file0": ["variables.file"] }' \
+  -F file0=@a.txt
 ```
 
 #### Request payload
@@ -64,9 +64,9 @@ Content-Disposition: form-data; name="operations"
 --------------------------cec8e8123c05ba25
 Content-Disposition: form-data; name="map"
 
-{ "0": ["variables.file"] }
+{ "file0": ["variables.file"] }
 --------------------------cec8e8123c05ba25
-Content-Disposition: form-data; name="0"; filename="a.txt"
+Content-Disposition: form-data; name="file0"; filename="a.txt"
 Content-Type: text/plain
 
 Alpha file content.
@@ -101,9 +101,9 @@ Alpha file content.
 ```shell
 curl localhost:3001/graphql \
   -F operations='{ "query": "mutation($files: [Upload!]!) { multipleUpload(files: $files) { id } }", "variables": { "files": [null, null] } }' \
-  -F map='{ "0": ["variables.files.0"], "1": ["variables.files.1"] }' \
-  -F 0=@b.txt \
-  -F 1=@c.txt
+  -F map='{ "file0": ["variables.files.0"], "file1": ["variables.files.1"] }' \
+  -F file0=@b.txt \
+  -F file1=@c.txt
 ```
 
 #### Request payload
@@ -116,15 +116,15 @@ Content-Disposition: form-data; name="operations"
 --------------------------ec62457de6331cad
 Content-Disposition: form-data; name="map"
 
-{ "0": ["variables.files.0"], "1": ["variables.files.1"] }
+{ "file0": ["variables.files.0"], "file1": ["variables.files.1"] }
 --------------------------ec62457de6331cad
-Content-Disposition: form-data; name="0"; filename="b.txt"
+Content-Disposition: form-data; name="file0"; filename="b.txt"
 Content-Type: text/plain
 
 Bravo file content.
 
 --------------------------ec62457de6331cad
-Content-Disposition: form-data; name="1"; filename="c.txt"
+Content-Disposition: form-data; name="file1"; filename="c.txt"
 Content-Type: text/plain
 
 Charlie file content.
@@ -173,10 +173,10 @@ Charlie file content.
 ```shell
 curl localhost:3001/graphql \
   -F operations='[{ "query": "mutation ($file: Upload!) { singleUpload(file: $file) { id } }", "variables": { "file": null } }, { "query": "mutation($files: [Upload!]!) { multipleUpload(files: $files) { id } }", "variables": { "files": [null, null] } }]' \
-  -F map='{ "0": ["0.variables.file"], "1": ["1.variables.files.0"], "2": ["1.variables.files.1"] }' \
-  -F 0=@a.txt \
-  -F 1=@b.txt \
-  -F 2=@c.txt
+  -F map='{ "file0": ["0.variables.file"], "file1": ["1.variables.files.0"], "file2": ["1.variables.files.1"] }' \
+  -F file0=@a.txt \
+  -F file1=@b.txt \
+  -F file2=@c.txt
 ```
 
 #### Request payload
@@ -189,21 +189,21 @@ Content-Disposition: form-data; name="operations"
 --------------------------627436eaefdbc285
 Content-Disposition: form-data; name="map"
 
-{ "0": ["0.variables.file"], "1": ["1.variables.files.0"], "2": ["1.variables.files.1"] }
+{ "file0": ["0.variables.file"], "file1": ["1.variables.files.0"], "file2": ["1.variables.files.1"] }
 --------------------------627436eaefdbc285
-Content-Disposition: form-data; name="0"; filename="a.txt"
+Content-Disposition: form-data; name="file0"; filename="a.txt"
 Content-Type: text/plain
 
 Alpha file content.
 
 --------------------------627436eaefdbc285
-Content-Disposition: form-data; name="1"; filename="b.txt"
+Content-Disposition: form-data; name="file1"; filename="b.txt"
 Content-Type: text/plain
 
 Bravo file content.
 
 --------------------------627436eaefdbc285
-Content-Disposition: form-data; name="2"; filename="c.txt"
+Content-Disposition: form-data; name="file2"; filename="c.txt"
 Content-Type: text/plain
 
 Charlie file content.
