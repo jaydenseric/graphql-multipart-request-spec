@@ -231,3 +231,4 @@ Pull requests adding either experimental or mature implementations to these list
 - [Ecodev/graphql-upload](https://github.com/Ecodev/graphql-upload) (PHP: [Composer](https://packagist.org/packages/ecodev/graphql-upload))
 - [rebing/graphql-laravel](https://github.com/rebing/graphql-laravel) (PHP: [Composer](https://packagist.org/packages/rebing/graphql-laravel))
 - [lmcgartland/graphene-file-upload](https://github.com/lmcgartland/graphene-file-upload) (Python: [PyPi](https://pypi.org/project/graphene-file-upload))
+- [jpascal/graphql-upload](https://github.com/jpascal/graphql-upload) (GoLang: [github](https://github.com/jpascal/graphql-upload))
