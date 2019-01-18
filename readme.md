@@ -222,6 +222,7 @@ Pull requests adding either experimental or mature implementations to these list
 - [jaydenseric/extract-files](https://github.com/jaydenseric/extract-files) (JS: [npm](https://npm.im/extract-files))
 - [klis87/redux-saga-requests-graphql](https://github.com/klis87/redux-saga-requests/tree/master/packages/redux-saga-requests-graphql) (JS: [npm](https://npm.im/redux-saga-requests-graphql))
 - [~~apollo-fetch-upload~~](https://github.com/apollographql/apollo-fetch/tree/master/packages/apollo-fetch-upload) (JS: [npm](https://npm.im/apollo-fetch-upload))
+- [truongsinh/apollo-android](https://github.com/truongsinh/apollo-android/tree/uploadfile) (Android: [Maven](https://bintray.com/truongsinh/android)) (waiting to be merged to upstream [apollographql/apollo-android#1182](https://github.com/apollographql/apollo-android/pull/1182))
 
 ### Server
 
