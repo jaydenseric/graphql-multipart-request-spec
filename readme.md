@@ -233,3 +233,7 @@ Pull requests adding either experimental or mature implementations to these list
 - [rebing/graphql-laravel](https://github.com/rebing/graphql-laravel) (PHP: [Composer](https://packagist.org/packages/rebing/graphql-laravel))
 - [lmcgartland/graphene-file-upload](https://github.com/lmcgartland/graphene-file-upload) (Python: [PyPi](https://pypi.org/project/graphene-file-upload))
 - [jpascal/graphql-upload](https://github.com/jpascal/graphql-upload) (Go: [GitHub](https://github.com/jpascal/graphql-upload))
+
+### GraphQL Tools
+
+- [Altair GraphQL Client](https://altair.sirmuel.design/) [[Usage](https://sirmuel.design/working-with-file-uploads-using-altair-graphql-d2f86dc8261f)]
