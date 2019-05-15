@@ -1,29 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" style="background:#FFF" width="565" height="640" viewBox="0 0 565 640">
   <title>Sync vs async GraphQL multipart request middleware</title>
   <g fill="none" fill-rule="evenodd">
-    <path fill="#00CAC2" d="M39 103.262h12v12H39z"/>
+    <path fill="#e10098" d="M39 103.262h12v12H39z"/>
     <text fill="#141414" font-family="sans-serif" font-size="16">
       <tspan x="59" y="115.262">GraphQL API upload</tspan>
     </text>
-    <path fill="#EE72AD" d="M39 123.262h12v12H39z"/>
+    <path fill="#61dafb" d="M39 123.262h12v12H39z"/>
     <text fill="#141414" font-family="sans-serif" font-size="16">
       <tspan x="59" y="135.262">Cloud storage upload</tspan>
     </text>
     <path fill="#000" fill-opacity=".059" d="M112.988 216.62H499.75v12H112.988z"/>
-    <path fill="#00CAC2" d="M124.988 216.62h40v6h-40z"/>
-    <path fill="#EE72AD" d="M365.488 222.62h40v6h-40z"/>
+    <path fill="#e10098" d="M124.988 216.62h40v6h-40z"/>
+    <path fill="#61dafb" d="M365.488 222.62h40v6h-40z"/>
     <text fill="#141414" font-family="sans-serif" font-size="16">
       <tspan x="40.928" y="225.497">1mb.png</tspan>
     </text>
     <path fill="#000" fill-opacity=".059" d="M112.988 238.823H499.75v12H112.988z"/>
-    <path fill="#00CAC2" d="M164.988 238.688h80v6h-80z"/>
-    <path fill="#EE72AD" d="M365.488 244.688h80v6h-80z"/>
+    <path fill="#e10098" d="M164.988 238.688h80v6h-80z"/>
+    <path fill="#61dafb" d="M365.488 244.688h80v6h-80z"/>
     <text fill="#141414" font-family="sans-serif" font-size="16">
       <tspan x="40.928" y="247.632">2mb.png</tspan>
     </text>
     <path fill="#000" fill-opacity=".059" d="M112.988 262.497H499.75v12H112.988z"/>
-    <path fill="#00CAC2" d="M244.988 262.497h120v6h-120z"/>
-    <path fill="#EE72AD" d="M365.488 268.688h120v6h-120z"/>
+    <path fill="#e10098" d="M244.988 262.497h120v6h-120z"/>
+    <path fill="#61dafb" d="M365.488 268.688h120v6h-120z"/>
     <text fill="#141414" font-family="sans-serif" font-size="16">
       <tspan x="40.928" y="271.497">3mb.png</tspan>
     </text>
@@ -44,20 +44,20 @@
       <tspan x="86" y="187.07">Store files temporarily on API server (filesystem or memory).</tspan>
     </text>
     <path fill="#000" fill-opacity=".059" d="M116.988 409.405H503.75v12H116.988z"/>
-    <path fill="#00CAC2" d="M128.988 409.405h40v6h-40z"/>
-    <path fill="#EE72AD" d="M131.988 415.405h40v6h-40z"/>
+    <path fill="#e10098" d="M128.988 409.405h40v6h-40z"/>
+    <path fill="#61dafb" d="M131.988 415.405h40v6h-40z"/>
     <text fill="#141414" font-family="sans-serif" font-size="16">
       <tspan x="44.928" y="418.282">1mb.png</tspan>
     </text>
     <path fill="#000" fill-opacity=".059" d="M116.988 431.608H503.75v12H116.988z"/>
-    <path fill="#00CAC2" d="M168.988 431.473h80v6h-80z"/>
-    <path fill="#EE72AD" d="M171.988 437.473h80v6h-80z"/>
+    <path fill="#e10098" d="M168.988 431.473h80v6h-80z"/>
+    <path fill="#61dafb" d="M171.988 437.473h80v6h-80z"/>
     <text fill="#141414" font-family="sans-serif" font-size="16">
       <tspan x="44.928" y="440.417">2mb.png</tspan>
     </text>
     <path fill="#000" fill-opacity=".059" d="M116.988 455.282H503.75v12H116.988z"/>
-    <path fill="#00CAC2" d="M248.988 455.282h120v6h-120z"/>
-    <path fill="#EE72AD" d="M251.988 461.282h120v6h-120z"/>
+    <path fill="#e10098" d="M248.988 455.282h120v6h-120z"/>
+    <path fill="#61dafb" d="M251.988 461.282h120v6h-120z"/>
     <text fill="#141414" font-family="sans-serif" font-size="16">
       <tspan x="44.928" y="464.282">3mb.png</tspan>
     </text>
