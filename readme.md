@@ -225,6 +225,7 @@ Pull requests adding either experimental or mature implementations to these list
 - [haffdata/buoy](https://github.com/haffdata/buoy) (JS: [npm](https://npm.im/@buoy/client))
 - [~~apollo-fetch-upload~~](https://github.com/apollographql/apollo-fetch/tree/master/packages/apollo-fetch-upload) (JS: [npm](https://npm.im/apollo-fetch-upload))
 - [apollographql/apollo-android](https://github.com/apollographql/apollo-android) (Java: [Bintray](https://bintray.com/apollographql/android))
+- [zino-app/graphql-flutter](https://github.com/zino-app/graphql-flutter) (Dart: [Pub](https://pub.dev/packages/graphql))
 
 ### Server
 
