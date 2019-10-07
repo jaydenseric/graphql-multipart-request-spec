@@ -34,7 +34,7 @@ So operations can be resolved while the files are still uploading, the fields ar
 {
   query: `
     mutation($file: Upload!) {
-      uploadFile(file: $file) {
+      singleUpload(file: $file) {
         id
       }
     }
