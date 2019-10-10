@@ -141,7 +141,7 @@ Charlie file content.
   {
     query: `
       mutation($file: Upload!) {
-        uploadFile(file: $file) {
+        singleUpload(file: $file) {
           id
         }
       }
