@@ -220,6 +220,7 @@ Pull requests adding either experimental or mature implementations to these list
 - [jaydenseric/graphql-react](https://github.com/jaydenseric/graphql-react) (JS: [npm](https://npm.im/graphql-react))
 - [jaydenseric/apollo-upload-client](https://github.com/jaydenseric/apollo-upload-client) (JS: [npm](https://npm.im/apollo-upload-client))
 - [jaydenseric/extract-files](https://github.com/jaydenseric/extract-files) (JS: [npm](https://npm.im/extract-files))
+- [nearform/graphql-hooks](https://github.com/nearform/graphql-hooks) (JS: [npm](https://npm.im/graphql-hooks))
 - [klis87/redux-saga-requests-graphql](https://github.com/klis87/redux-saga-requests/tree/master/packages/redux-saga-requests-graphql) (JS: [npm](https://npm.im/redux-saga-requests-graphql))
 - [imolorhe/altair](https://github.com/imolorhe/altair) (JS: [npm](https://npm.im/altair-static))
 - [haffdata/buoy](https://github.com/haffdata/buoy) (JS: [npm](https://npm.im/@buoy/client))
