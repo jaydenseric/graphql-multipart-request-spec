@@ -240,4 +240,5 @@ Pull requests adding either experimental or mature implementations to these list
 - [Ecodev/graphql-upload](https://github.com/Ecodev/graphql-upload) (PHP: [Composer](https://packagist.org/packages/ecodev/graphql-upload))
 - [rebing/graphql-laravel](https://github.com/rebing/graphql-laravel) (PHP: [Composer](https://packagist.org/packages/rebing/graphql-laravel))
 - [nuwave/lighthouse](https://github.com/nuwave/lighthouse) (PHP: [Composer](https://packagist.org/packages/nuwave/lighthouse))
+- [overblog/graphql-bundle](https://github.com/overblog/GraphQLBundle) (PHP: [Composer](https://packagist.org/packages/overblog/graphql-bundle))
 - [lmcgartland/graphene-file-upload](https://github.com/lmcgartland/graphene-file-upload) (Python: [PyPi](https://pypi.org/project/graphene-file-upload))
