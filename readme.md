@@ -137,7 +137,7 @@ Charlie file content.
 #### Operations
 
 ```js
-;[
+[
   {
     query: `
       mutation($file: Upload!) {
