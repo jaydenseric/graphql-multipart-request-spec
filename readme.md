@@ -244,3 +244,4 @@ Pull requests adding either experimental or mature implementations to these list
 - [nuwave/lighthouse](https://github.com/nuwave/lighthouse) (PHP: [Composer](https://packagist.org/packages/nuwave/lighthouse))
 - [overblog/graphql-bundle](https://github.com/overblog/GraphQLBundle) (PHP: [Composer](https://packagist.org/packages/overblog/graphql-bundle))
 - [lmcgartland/graphene-file-upload](https://github.com/lmcgartland/graphene-file-upload) (Python: [PyPi](https://pypi.org/project/graphene-file-upload))
+- [graphql-java-kickstart/graphql-java-servlet](https://github.com/graphql-java-kickstart/graphql-java-servlet) (Java: [Maven](https://mvnrepository.com/artifact/com.graphql-java/graphql-java-servlet))
