@@ -224,6 +224,7 @@ Pull requests adding either experimental or mature implementations to these list
 - [klis87/redux-saga-requests-graphql](https://github.com/klis87/redux-saga-requests/tree/master/packages/redux-saga-requests-graphql) (JS: [npm](https://npm.im/redux-saga-requests-graphql))
 - [imolorhe/altair](https://github.com/imolorhe/altair) (JS: [npm](https://npm.im/altair-static))
 - [haffdata/buoy](https://github.com/haffdata/buoy) (JS: [npm](https://npm.im/@buoy/client))
+- [@urql/exchange-multipart-fetch](https://formidable.com/open-source/urql/docs/api/multipart-fetch-exchange/) (JS: [npm](https://npm.im/@urql/exchange-multipart-fetch))
 - [~~apollo-fetch-upload~~](https://github.com/apollographql/apollo-fetch/tree/master/packages/apollo-fetch-upload) (JS: [npm](https://npm.im/apollo-fetch-upload))
 - [apollographql/apollo-ios](https://github.com/apollographql/apollo-ios) (Swift: [CocoaPods](https://cocoapods.org/pods/Apollo))
 - [apollographql/apollo-android](https://github.com/apollographql/apollo-android) (Java: [Bintray](https://bintray.com/apollographql/android))
