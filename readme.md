@@ -228,6 +228,7 @@ Pull requests adding either experimental or mature implementations to these list
 - [apollographql/apollo-ios](https://github.com/apollographql/apollo-ios) (Swift: [CocoaPods](https://cocoapods.org/pods/Apollo))
 - [apollographql/apollo-android](https://github.com/apollographql/apollo-android) (Java: [Bintray](https://bintray.com/apollographql/android))
 - [zino-app/graphql-flutter](https://github.com/zino-app/graphql-flutter) (Dart: [Pub](https://pub.dev/packages/graphql))
+- [samirelanduk/kirjava](https://github.com/samirelanduk/kirjava) (Python: [PyPi](https://pypi.org/project/kirjava))
 - [DoctorJohn/aiogqlc](https://github.com/DoctorJohn/aiogqlc) (Python: [PyPi](https://pypi.org/project/aiogqlc))
 - [graphql-python/gql](https://github.com/graphql-python/gql) (Python: [PyPi](https://pypi.org/project/gql))
 
