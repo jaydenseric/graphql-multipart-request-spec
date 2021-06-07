@@ -248,7 +248,7 @@ Pull requests adding either experimental or mature implementations to these list
 - [overblog/graphql-bundle](https://github.com/overblog/GraphQLBundle) (PHP: [Composer](https://packagist.org/packages/overblog/graphql-bundle))
 - [infinityloop-dev/graphpinator](https://github.com/infinityloop-dev/graphpinator) (PHP: [Composer](https://packagist.org/packages/infinityloop-dev/graphpinator))
 - [lmcgartland/graphene-file-upload](https://github.com/lmcgartland/graphene-file-upload) (Python: [PyPi](https://pypi.org/project/graphene-file-upload))
+- [strawberry-graphql/strawberry](https://github.com/strawberry-graphql/strawberry) (Python: [PyPi](https://pypi.org/project/strawberry-graphql))
 - [graphql-java-kickstart/graphql-java-servlet](https://github.com/graphql-java-kickstart/graphql-java-servlet) (Java: [Maven](https://mvnrepository.com/artifact/com.graphql-java/graphql-java-servlet))
 - [ChilliCream/hotchocolate](https://github.com/ChilliCream/hotchocolate) (C#: [NuGet](https://www.nuget.org/packages/HotChocolate))
 - [async-graphql/async-graphql](https://github.com/async-graphql/async-graphql) (Rust: [Crates](https://crates.io/crates/async-graphql))
-- [strawberry-graphql/strawberry](https://github.com/strawberry-graphql/strawberry) (Python: [PyPi](https://pypi.org/project/strawberry-graphql/))
