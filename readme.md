@@ -213,7 +213,7 @@ Charlie file content.
 
 ## Implementations
 
-Pull requests adding either experimental or mature implementations to these lists are welcome!
+Pull requests adding either experimental or mature implementations to these lists are welcome! ~~Strikethrough~~ means the project was renamed, deprecated, or no longer supports this spec out of the box (but might via an optional integration).
 
 ### Client
 
