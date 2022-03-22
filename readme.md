@@ -237,6 +237,7 @@ Pull requests adding either experimental or mature implementations to these list
 
 - [jaydenseric/graphql-upload](https://github.com/jaydenseric/graphql-upload) (JS: [npm](https://npm.im/graphql-upload))
 - [koresar/graphql-upload-minimal](https://github.com/koresar/graphql-upload-minimal) (JS: [npm](https://npm.im/graphql-upload-minimal))
+- [dotansimha/graphql-yoga](https://github.com/dotansimha/graphql-yoga) (JS: [npm](https://npm.im/@graphql-yoga/common))
 - [~~apollographql/apollo-server~~](https://github.com/apollographql/apollo-server) (JS: [npm](https://npm.im/apollo-server))
 - [~~jaydenseric/apollo-upload-server~~](https://github.com/jaydenseric/apollo-upload-server) (JS: [npm](https://npm.im/apollo-upload-server))
 - [99designs/gqlgen](https://github.com/99designs/gqlgen) (Go: [GitHub](https://github.com/99designs/gqlgen))
