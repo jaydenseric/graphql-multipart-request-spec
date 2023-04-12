@@ -16,7 +16,7 @@ It’s possible to implement:
 
 ## Multipart form field structure
 
-An “operations object” is an [Apollo GraphQL POST request](https://www.apollographql.com/docs/apollo-server/requests/#post-requests) (or array of requests if batching). An “operations path” is an [`object-path`](https://npm.im/object-path) string to locate a file within an operations object.
+An “operations object” is an [Apollo GraphQL POST request](https://www.apollographql.com/docs/apollo-server/workflow/requests/#post-requests) (or array of requests if batching). An “operations path” is an [`object-path`](https://npm.im/object-path) string to locate a file within an operations object.
 
 So operations can be resolved while the files are still uploading, the fields are ordered:
 
