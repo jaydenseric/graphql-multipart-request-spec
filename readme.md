@@ -211,6 +211,12 @@ Charlie file content.
 --------------------------627436eaefdbc285--
 ```
 
+## Security
+
+GraphQL server authentication and security mechanisms are beyond the scope of this specification, which only covers a multipart form field structure for GraphQL requests.
+
+Note that a GraphQL multipart request has the [Content-Type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type) `multipart/form-data`; if a browser making such a request determines it meets the criteria for a “[simple request](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#simple_requests)” as defined in the [Fetch specification](https://fetch.spec.whatwg.org) for the [Cross-Origin Resource Sharing](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (CORS) protocol, it won’t cause a [CORS preflight request](https://developer.mozilla.org/en-US/docs/Glossary/Preflight_request). GraphQL server authentication and security mechanisms must consider this to prevent [Cross-Site Request Forgery](https://developer.mozilla.org/en-US/docs/Glossary/CSRF) (CSRF) attacks.
+
 ## Implementations
 
 Pull requests adding either experimental or mature implementations to these lists are welcome! ~~Strikethrough~~ means the project was renamed, deprecated, or no longer supports this spec out of the box (but might via an optional integration).
