@@ -1,7 +1,5 @@
 # GraphQL multipart request specification
 
-[![GitHub release](https://badgen.net/github/release/jaydenseric/graphql-multipart-request-spec)](https://github.com/jaydenseric/graphql-multipart-request-spec/releases)
-
 An interoperable [multipart form](https://tools.ietf.org/html/rfc7578) field structure for GraphQL requests, used by various file upload client/server implementations.
 
 It’s possible to implement:
