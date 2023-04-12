@@ -20,9 +20,9 @@ An “operations object” is an [Apollo GraphQL POST request](https://www.apoll
 
 So operations can be resolved while the files are still uploading, the fields are ordered:
 
-1.  `operations`: A JSON encoded operations object with files replaced with `null`.
-2.  `map`: A JSON encoded map of where files occurred in the operations. For each file, the key is the file multipart form field name and the value is an array of operations paths.
-3.  File fields: Each file extracted from the operations object with a unique, arbitrary field name.
+1. `operations`: A JSON encoded operations object with files replaced with `null`.
+2. `map`: A JSON encoded map of where files occurred in the operations. For each file, the key is the file multipart form field name and the value is an array of operations paths.
+3. File fields: Each file extracted from the operations object with a unique, arbitrary field name.
 
 ## Examples
 
@@ -137,7 +137,7 @@ Charlie file content.
 #### Operations
 
 ```js
-;[
+[
   {
     query: `
       mutation($file: Upload!) {
@@ -147,8 +147,8 @@ Charlie file content.
       }
     `,
     variables: {
-      file: File // a.txt
-    }
+      file: File, // a.txt
+    },
   },
   {
     query: `
@@ -161,11 +161,11 @@ Charlie file content.
     variables: {
       files: [
         File, // b.txt
-        File // c.txt
-      ]
-    }
-  }
-]
+        File, // c.txt
+      ],
+    },
+  },
+];
 ```
 
 #### cURL request
