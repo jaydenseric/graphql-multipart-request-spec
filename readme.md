@@ -213,15 +213,13 @@ Charlie file content.
 
 ## Security
 
-Most HTTP GraphQL servers will only execute mutations when they are provided in `POST` requests, and servers that do not implement the GraphQL multipart request spec typically only process `POST` requests with `content-type` headers such as `application/json` or `application/graphql`. Because of this, most GraphQL servers that do not implement this protocol will never execute a mutation inside a ["simple request"](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#simple_requests), and so mutations cannot  be executed by Cross-Site Request Forgery (CSRF) attacks.
+Most HTTP GraphQL servers will only execute mutations when they are provided in `POST` requests, and servers that do not implement the GraphQL multipart request spec typically only process `POST` requests with `content-type` headers such as `application/json` or `application/graphql`. Because of this, most GraphQL servers that do not implement this protocol will never execute a mutation inside a ["simple request"](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#simple_requests), and so mutations cannot be executed by Cross-Site Request Forgery (CSRF) attacks.
 
 However, servers that implement the GraphQL multipart request spec will execute GraphQL operations provided as `POST` requests with `Content-Type: multipart/form-data`.  This content-type is special-cased in browser security and (unlike `application/json`) requests with this content-type can be "simple". This means that unless other mitigations are provided, servers implementing the GraphQL multipart request spec will be vulnerable to CSRF attacks that execute mutations.
 
 If you implement this protocol in your server, then you should ensure that your server is not vulnerable to CSRF attacks. Approaches include:
 - Refuse to execute GraphQL operations from any HTTP request that does not contain some non-empty header that browsers will not send by default, such as `GraphQL-Require-Preflight`. Setting such a header means that the request is no longer a simple request. (If you are careful to parse `Content-Type` in the same way that browsers parse it, you only need to require this header for requests that have no `Content-Type` or set one of three particular content-types including `multipart/form-data`.) For example, if every operation must already have some sort of custom API key header, then you are already protected against CSRF attacks.
 - Avoid the use of cookies, HTTP Basic Authentication, and network separation for security. Publicly accessible web servers which do not use an authentication mechanism that is automatically added by browsers typically are immune to CSRF, because any operation that untrusted browser JS could execute could also just be run directly by the attacker outside of the browser.
-
-
 ## Implementations
 
 Pull requests adding either experimental or mature implementations to these lists are welcome! ~~Strikethrough~~ means the project was renamed, deprecated, or no longer supports this spec out of the box (but might via an optional integration).
