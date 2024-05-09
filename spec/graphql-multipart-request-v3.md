@@ -173,7 +173,7 @@ ExecuteMultipartRequest(multipartRequest) :
     * Else If {partName} is `map`
         * If this server supports V2 via backwards compatability
             * The {Server} must handle {multipartRequest} according
-              to [V2 of this spec](https://github.com/jaydenseric/graphql-multipart-request-spec)
+              to [V2 of this spec](./graphql-multipart-request-v2.html)
         * Else ignore this {Part}
     * Else Store the entry {partName} -> {partValue} in {embeddedPartsMap}
 
@@ -259,7 +259,7 @@ Alpha file content.
 ### Missing Embedded Parts
 
 The request is invalid if it is missing referenced *embedded part*s. This can happen when the {Client} sends a non
-*multipart/form-data* request or sends a *multipart/form-data* request missing referenced *embedded part*s. The {Server} 
+*multipart/form-data* request or sends a *multipart/form-data* request missing referenced *embedded part*s. The {Server}
 MUST handle these errors as outlined in the GraphQL Spec: {HandleFieldError()}.
 
 **Request**
@@ -379,7 +379,7 @@ Alpha file content Again.
 
 # Backwards Compatability
 
-With [V2 of this spec](https://github.com/jaydenseric/graphql-multipart-request-spec)
+With [V2 of this spec](./graphql-multipart-request-v2.html)
 
 ## Client Backwards Compatibility
 
@@ -428,9 +428,9 @@ that contains the relevant additional data for clarity.
 
 V3 {Server}s MAY choose to support V2 requests of this specification. If a backwards compatible V3 {Server} receives
 a request with a *map part* it must implement the execution flow defined
-by [V2 of this spec](https://github.com/jaydenseric/graphql-multipart-request-spec). The file key's values MUST be
-ignored and substituted sequentially with the contents of the *map part*. If no *map part* is present, it MUST implement
-the flow described in {ExecuteMultipartRequest()}.
+by [V2 of this spec](./graphql-multipart-request-v2.html). The file key's values MUST be ignored and substituted
+sequentially with the contents of the *map part*. If no *map part* is present, it MUST implement the flow described in
+{ExecuteMultipartRequest()}.
 
 # Examples
 
