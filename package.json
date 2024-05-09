@@ -1,0 +1,23 @@
+{
+  "name": "graphql-multipart-request-spec",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.js",
+    "dev": "node scripts/build.js --watch",
+    "release": "npm run build",
+    "publish": "npm run release && ./scripts/publish.sh",
+    "clean": "rimraf build"
+  },
+  "type": "module",
+  "devDependencies": {
+    "chokidar": "^3.6.0",
+    "live-server": "^1.2.2",
+    "prettier": "^3.2.5",
+    "rimraf": "^5.0.5",
+    "spec-md": "^3.1.0"
+  },
+  "prettier": {
+    "proseWrap": "always",
+    "trailingComma": "none"
+  }
+}

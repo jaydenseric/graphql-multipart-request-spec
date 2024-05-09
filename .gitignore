@@ -1,0 +1,15 @@
+# Personal Configs
+.DS_Store
+
+# node directories
+node_modules
+*.tsbuildinfo
+
+# build folder
+build
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea

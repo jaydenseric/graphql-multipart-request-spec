@@ -1,0 +1,17 @@
+{
+  "biblio": {
+    "https://spec.graphql.org/draft/": {
+      "ExecuteGraphQLRequest()": "#sec-Execution",
+      "HandleFieldError()": "#sec-Handling-Field-Errors"
+    },
+    "https://graphql.github.io/graphql-over-http/draft": {
+      "Server": "#sec-Overview",
+      "Client": "#sec-Overview",
+      "ExecuteGraphQLOverHTTPRequest()": "#sec-Execution"
+    },
+    "https://datatracker.ietf.org/doc/html/rfc7578": {
+      "Part": "#section-4",
+      "Name": "#section-4.2"
+    }
+  }
+}
