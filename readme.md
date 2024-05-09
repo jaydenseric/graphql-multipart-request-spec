@@ -2,6 +2,8 @@
 
 An interoperable [multipart form](https://tools.ietf.org/html/rfc7578) field structure for GraphQL requests, used by various file upload client/server implementations.
 
+## [Spec](./spec/GraphQLMultipartRequest.md)
+
 It’s possible to implement:
 
 - Nesting files anywhere within operations.
@@ -31,8 +33,6 @@ Alpha file content.
 ```
 
 ![Sync vs async GraphQL multipart request middleware](sync-vs-async-graphql-multipart-request-middleware.svg)
-
-## [Spec](./spec/GraphQLMultipartRequest.md)
 
 ## Security
 
