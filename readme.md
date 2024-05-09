@@ -2,7 +2,7 @@
 
 An interoperable [multipart form](https://tools.ietf.org/html/rfc7578) field structure for GraphQL requests, used by various file upload client/server implementations.
 
-## [Spec](./spec/GraphQLMultipartRequest.md)
+## [Spec](./spec/graphql-multipart-request-v3.md)
 
 It’s possible to implement:
 
