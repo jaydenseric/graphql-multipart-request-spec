@@ -257,3 +257,4 @@ Pull requests adding either experimental or mature implementations to these list
 - [graphql-java-kickstart/graphql-java-servlet](https://github.com/graphql-java-kickstart/graphql-java-servlet) (Java: [Maven](https://mvnrepository.com/artifact/com.graphql-java/graphql-java-servlet))
 - [ChilliCream/hotchocolate](https://github.com/ChilliCream/hotchocolate) (C#: [NuGet](https://www.nuget.org/packages/HotChocolate))
 - [async-graphql/async-graphql](https://github.com/async-graphql/async-graphql) (Rust: [Crates](https://crates.io/crates/async-graphql))
+- [metatypedev/metatype](https://github.com/metatypedev/metatype) (Docker: [Github](https://github.com/metatypedev/metatype/pkgs/container/typegate), Python: [PyPi](https://pypi.org/project/typegraph/), JS: [npm](https://www.npmjs.com/package/@typegraph/sdk), JS: [JSR](https://jsr.io/@typegraph/sdk))
