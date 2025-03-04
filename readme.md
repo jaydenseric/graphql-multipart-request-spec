@@ -236,6 +236,7 @@ Pull requests adding either experimental or mature implementations to these list
 - [samirelanduk/kirjava](https://github.com/samirelanduk/kirjava) (Python: [PyPi](https://pypi.org/project/kirjava))
 - [DoctorJohn/aiogqlc](https://github.com/DoctorJohn/aiogqlc) (Python: [PyPi](https://pypi.org/project/aiogqlc))
 - [graphql-python/gql](https://github.com/graphql-python/gql) (Python: [PyPi](https://pypi.org/project/gql))
+- [GnRlLeclerc/go-graphql-client](https://github.com/GnRlLeclerc/go-graphql-client) (Go: [GitHub](https://github.com/GnRlLeclerc/go-graphql-client))
 
 ### Server
 
